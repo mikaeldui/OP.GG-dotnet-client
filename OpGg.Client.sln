@@ -1,19 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpGg.Client", "OpGg.Client\OpGg.Client.csproj", "{1D28F5D0-1F84-4D2E-967E-047F8ECC9E8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpGg.Core", "OpGg.Client\OpGg.Core.csproj", "{1D28F5D0-1F84-4D2E-967E-047F8ECC9E8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpGg.Client.Tests", "OpGg.Client.Tests\OpGg.Client.Tests.csproj", "{20C5D58F-07AB-4700-BE43-B4A3FC807A6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpGg.Client.Tests", "OpGg.Client.Tests\OpGg.Client.Tests.csproj", "{20C5D58F-07AB-4700-BE43-B4A3FC807A6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpGg.LeagueOfLegends.Client", "OpGg.LeagueOfLegends.Client\OpGg.LeagueOfLegends.Client.csproj", "{06BDDCC9-9224-4A38-BA65-7E0A4F450771}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8B1C0FB6-0AF8-41A8-AF59-9ED749AE4F12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1D28F5D0-1F84-4D2E-967E-047F8ECC9E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +25,18 @@ Global
 		{20C5D58F-07AB-4700-BE43-B4A3FC807A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20C5D58F-07AB-4700-BE43-B4A3FC807A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20C5D58F-07AB-4700-BE43-B4A3FC807A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06BDDCC9-9224-4A38-BA65-7E0A4F450771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06BDDCC9-9224-4A38-BA65-7E0A4F450771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06BDDCC9-9224-4A38-BA65-7E0A4F450771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06BDDCC9-9224-4A38-BA65-7E0A4F450771}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20C5D58F-07AB-4700-BE43-B4A3FC807A6A} = {8B1C0FB6-0AF8-41A8-AF59-9ED749AE4F12}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {121C59FF-C4CA-4132-9435-432DEB77E626}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFrameworks>netstandard2.0;netstandard2.1;net5.0;net6.0</TargetFrameworks>
+	  <LangVersion>latest</LangVersion>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+	  <RootNamespace>OpGg.LeagueOfLegends</RootNamespace>
+	  <PackageId>MikaelDui.OpGg.LeagueOfLegends.Client</PackageId>
+	  <Authors>Mikael Dúi Bolinder</Authors>
+	  <Product>MikaelDui.OpGg.LeagueOfLegends.Client</Product>
+	  <Description>An unofficial .NET client for OP.GG for League of Legends.</Description>
+	  <PackageProjectUrl>https://github.com/mikaeldui/OP.GG-dotnet-client</PackageProjectUrl>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <PackageIcon>OpGg.Client.png</PackageIcon>
+	  <RepositoryUrl>https://github.com/mikaeldui/OP.GG-dotnet-client</RepositoryUrl>
+	  <PackageTags>OPGG; LeagueOfLegends; OP.GG; League of Legends</PackageTags>
+	  <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
+	  <AssemblyName>MikaelDui.OpGg.LeagueOfLegends.Client</AssemblyName>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Camille.Enums" Version="3.0.0-nightly-2022-01-19-e2d99a371d" />
+		<PackageReference Include="HtmlAgilityPack" Version="1.11.40" />
+		<PackageReference Include="MikaelDui.Extensions" Version="*" />
+		<PackageReference Include="MikaelDui.HtmlAgilityPack.Extensions" Version="0.0.2" />
+		<PackageReference Include="MikaelDui.Net.UserAgent" Version="1.0.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Models\" />
+	  <Folder Include="Parsers\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\OpGg.Client\OpGg.Core.csproj" />
+	</ItemGroup>
+
+</Project>

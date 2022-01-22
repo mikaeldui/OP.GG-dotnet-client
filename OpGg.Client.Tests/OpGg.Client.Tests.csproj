@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OpGg.Client\OpGg.Client.csproj" />
+    <ProjectReference Include="..\OpGg.Client\OpGg.Core.csproj" />
   </ItemGroup>
 
 </Project>
