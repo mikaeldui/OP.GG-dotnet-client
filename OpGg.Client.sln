@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpGg.Client", "OpGg.Client\OpGg.Client.csproj", "{1D28F5D0-1F84-4D2E-967E-047F8ECC9E8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpGg.Client.Tests", "OpGg.Client.Tests\OpGg.Client.Tests.csproj", "{20C5D58F-07AB-4700-BE43-B4A3FC807A6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D28F5D0-1F84-4D2E-967E-047F8ECC9E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D28F5D0-1F84-4D2E-967E-047F8ECC9E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D28F5D0-1F84-4D2E-967E-047F8ECC9E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D28F5D0-1F84-4D2E-967E-047F8ECC9E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C5D58F-07AB-4700-BE43-B4A3FC807A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C5D58F-07AB-4700-BE43-B4A3FC807A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C5D58F-07AB-4700-BE43-B4A3FC807A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C5D58F-07AB-4700-BE43-B4A3FC807A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
